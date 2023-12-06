@@ -13,8 +13,6 @@ age_str = input("Wat is je leeftijd? ")
 if age_str.isnumeric():
 
     # We kunnen er nu veilig een getal van maken.
-    # Let op: eigenlijk moeten we ook nog checken of het geen kommagetal is,
-    # deze kunnen we ook niet omzetten naar een integer.
     age_int = int(age_str)
 
     # Nu kunnen we ook wat informatie voor de gebruiker printen.

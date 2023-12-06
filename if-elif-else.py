@@ -40,4 +40,3 @@ elif datum.month == 7:
 else:
     # Rest
     print("Datum is na Juli")
-
