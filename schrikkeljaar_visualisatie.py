@@ -1,3 +1,14 @@
+"""
+schrikkeljaar_visualisatie.py
+
+Het volgende script was voornamelijk bedoeld om de antwoorden op
+de schrikkeljaar-vraag te kunnen valideren. Je kunt deze wel draaien,
+maar de grafiek ziet er niet heel overzichtelijk uit.
+
+Known issues:
+- Er staat True/False onderin de grafiek alsof het een bar graph is. Dit kun je negeren.
+"""
+
 import calendar
 
 # Data science libraries:

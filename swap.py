@@ -1,3 +1,9 @@
+"""
+swap.py
+
+Wissel de waarden van twee variabelen om.
+"""
+
 v1 = 4
 v2 = 5
 v3 = 6
@@ -7,7 +13,7 @@ v4 = 7
 v1, v2 = v2, v1
 print(v1, v2)
 
-# Twee waardes wisselen
+# Twee waardes wisselen (dit kan in de meeste talen!)
 temp = v3
 v3 = v4
 v4 = temp

@@ -3,6 +3,9 @@ schrikkeljaar.py
 
 Dit bestand vergelijkt een eigen implementatie van leap year met
 de ingebouwde versie.
+
+Wil je je eigen code testen? Vervang de code in leap_year (de functie) dan door
+je eigen code.
 """
 # Werken met kalenderdata
 import calendar

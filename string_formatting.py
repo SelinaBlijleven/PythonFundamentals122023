@@ -18,3 +18,6 @@ print("Dit is het resultaat van je sommetje: " + str(a))
 # Het formatteren van Strings is de netste manier om resultaten te printen.
 # Je kunt de string laten formatteren door een f voor de eerste quote (' of ") te zetten.
 print(f"Dit is het resultaat van je sommetje: {a}")
+
+# Er zijn nog veel meer manieren, maar de f-string is over het algemeen de
+# meest gebruiksvriendelijke en leesbare manier.

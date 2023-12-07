@@ -7,7 +7,8 @@ Created on Wed Dec  6 11:23:05 2023
 """
 
 '''
-Dag 1
+Dag 1: we blijven met wat schoonheidsfoutjes zitten, 
+omdat we nog niet alle bouwblokken hebben.
 '''
 firstname = input("Wat is je voornaam? ")
 tussenvoegsel = input("Wat is je tussenvoegsel (optioneel)? ")
@@ -18,7 +19,8 @@ name = firstname + ' ' + tussenvoegsel + ' ' + lastname
 print(name)
 
 '''
-Dag 2
+Dag 2: met behulp van while-loops en if-statements kunnen we beter
+omgaan met verschillende soorten namen.
 '''
 name_valid = False
 

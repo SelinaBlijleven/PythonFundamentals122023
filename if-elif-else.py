@@ -43,5 +43,7 @@ elif datum.month == 6:
 elif datum.month == 7:
     print("Juli")
 else:
-    # Rest
+    # De rest van de maanden wordt hier herkent.
+    # Als datum.month een andere waarde dan 1-12 zou kunnen
+    # hebben, zou die waarde ook deze conditie vervullen.
     print("Datum is na Juli")
