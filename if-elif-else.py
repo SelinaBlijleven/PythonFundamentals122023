@@ -2,6 +2,11 @@
 if-elif-else.py
 
 Demonstratie van de mogelijkheden van de if/elif/else.
+
+If/elif/else is met name geschikt op het moment dat we
+kijken naar meerdere mogelijke waarden voor een variabele.
+Als we bijvoorbeeld al weten dat maand 1 vertaalt naar Januari,
+hoeven we uiteraard de andere maanden niet meer te checken.
 """
 
 # Uit de datetime module importeren we de klasse datetime.

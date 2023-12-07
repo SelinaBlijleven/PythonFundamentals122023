@@ -2,6 +2,9 @@
 if-else.py
 
 Demonstratie van een if/else statement (en genestte if/else-statements).
+Een genestte if/else is een if/else-blok dat binnen een ander if/else-blok staat.
+In principe kun je zoveel if/else blokken in elkaar passen als je zou willen,
+de limiterende factor hier is je computer.
 """
 
 # Eerst vragen we de gebruiker om een leeftijd.
