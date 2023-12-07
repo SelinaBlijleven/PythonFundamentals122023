@@ -27,16 +27,21 @@ def leap_year(year):
     return year % 400 == 0 or year % 100 != 0
 
 
-# Maak een lijst met alle jaren tussen het jaar 1900 en 2030 (het eindgetal zelf, 2031 in dit geval, telt niet mee!)
-years = list(range(1900, 2031))
+def main():
+    # Maak een lijst met alle jaren tussen het jaar 1900 en 2030 (het eindgetal zelf, 2031 in dit geval, telt niet mee!)
+    years = list(range(1900, 2031))
 
-# Vraag alle schrikkeljaren op met de ingebouwde methode uit de calendar-package.
-leap_years_cal = [year for year in years if calendar.isleap(year)]
-# Vraag alle schrikkeljaren op met je eigen methode (zo lang deze maar leap_year heet)!
-leap_years = [year for year in years if leap_year(year)]
+    # Vraag alle schrikkeljaren op met de ingebouwde methode uit de calendar-package.
+    leap_years_cal = [year for year in years if calendar.isleap(year)]
+    # Vraag alle schrikkeljaren op met je eigen methode (zo lang deze maar leap_year heet)!
+    leap_years = [year for year in years if leap_year(year)]
 
-# Test of de functie die we zelf hebben geschreven werkt.
-# Assert geeft aan dat we in dit geval dezelfde lijsten horen te krijgen.
-assert leap_years_cal == leap_years
+    # Test of de functie die we zelf hebben geschreven werkt.
+    # Assert geeft aan dat we in dit geval dezelfde lijsten horen te krijgen.
+    assert leap_years_cal == leap_years
 
-print("Test geslaagd! :)")
+    print("Test geslaagd! :)")
+
+
+if __name__ == "__main__":
+    main()
